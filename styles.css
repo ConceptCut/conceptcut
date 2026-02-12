@@ -15,31 +15,31 @@
   box-sizing: border-box;
 }
 
-
 /* ===== FUNDO COM IMAGEM ===== */
 body {
-  background: 
+  background:
     linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
     url("IMG_9680.jpeg") no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 
-  font-family: 'Montserrat', sans-serif;
   color: var(--text-color);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  min-height: 100dvh;
 }
 
 /* ===== CONTAINER COM EFEITO VIDRO ===== */
 .container {
   max-width: 450px;
-  width: 100%;
+  width: 92%;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.80);
   backdrop-filter: blur(6px);
-  padding: 30px 25px 50px;
+  padding: 30px 20px 50px;
   border-radius: 15px;
 }
 
@@ -181,8 +181,14 @@ body {
   font-size: 12px;
 }
 
+/* ===== CENTRALIZAÇÃO CORRETA ===== */
 .page-content {
   margin-top: 80px;
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ===== RESPONSIVO ===== */
