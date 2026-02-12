@@ -15,24 +15,21 @@
   box-sizing: border-box;
 }
 
+
 /* ===== FUNDO COM IMAGEM ===== */
 body {
-  background:
+  background: 
     linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url("IMG_9680.jpeg");
+    url("IMG_9680.jpeg") no-repeat center center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 
+  font-family: 'Montserrat', sans-serif;
   color: var(--text-color);
-  font-family: 'Montserrat', Arial, sans-serif;
-  text-align: center;
-  padding: 20px 0;
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 /* ===== CONTAINER COM EFEITO VIDRO ===== */
